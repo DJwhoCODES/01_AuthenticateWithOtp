@@ -1,0 +1,20 @@
+{
+  "name": "01_authenticatewithotp",
+  "version": "1.0.0",
+  "description": "Authenticate With OTP without storing OTP in DB",
+  "license": "ISC",
+  "author": "DJwhoCODES",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "npx nodemon src/app.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.8",
+    "bcryptjs": "^3.0.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}
